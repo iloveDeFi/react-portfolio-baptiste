@@ -41,15 +41,14 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Reviews froim clients</h5>
+      <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
 
-      <Swiper className="container testimonials__container"
-      pagination={true} modules={[Pagination]} className="mySwiper">
+      <Swiper className="container testimonials__container" pagination={true} modules={[Pagination]} className="mySwiper">
         {
           data.map(({avatar, name, review}, index) => {
             return (
-              <SwiperSlide> key={index} className="testimonial">
+              <SwiperSlide key={index} className="testimonial">
           <div className="clients__avatar">
             <img src={avatar} alt="Avatar One" />
           </div>

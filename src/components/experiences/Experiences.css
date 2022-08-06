@@ -1,29 +1,29 @@
-.exeprience__container {
+.experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
 
-.exeprience__container > div {
+.experience__container > div {
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
 }
 
-.exeprience__container > div:hover {
+.experience__container > div:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
 
-.exeprience__container > div h3 {
+.experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
   color: var(--color-primary);
 }
 
-.exeprience__content {
+.experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
@@ -41,29 +41,29 @@
 
 /*================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
-  .exeprience__container {
+  .experience__container {
     grid-template-columns: 1fr;
   }
 
-  .exeprience__container > div {
+  .experience__container > div {
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
   }
 
-  .exeprience__content {
+  .experience__content {
     padding: 1rem;
   }
 }
 
 /*================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
-  .exeprience__container {
+  .experience__container {
     gap: 1rem;
   }
 }
 
-.exeprience__container > div {
+.experience__container > div {
   width: 100%;
   padding: 2rem 1rem;
 }
