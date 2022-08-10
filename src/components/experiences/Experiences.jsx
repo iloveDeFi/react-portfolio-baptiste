@@ -12,7 +12,7 @@ function Experiences() {
         {/* FRONTEND POUR COMMENTER C'EST SHIFT + ALT + A*/}
 
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>FRONTEND</h3>
           <div className="experience__content">
             <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon' />
@@ -65,7 +65,7 @@ function Experiences() {
         {/* BACKEND POUR COMMENTER C'EST SHIFT + ALT + A*/}
 
         <div className="experience__backend">
-        <h3>Backend Development</h3>
+        <h3>BACKEND</h3>
           <div className="experience__content">
             <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon' />

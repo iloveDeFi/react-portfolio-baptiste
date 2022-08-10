@@ -29,19 +29,19 @@ const form = useRef();
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contat__option">
+          <article className="contact__option">
           <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>hello@neuch.com</h5>
             <a href="mailto:hello@neuch.io" target="_blank">Envoyer un message</a>
           </article>
-          <article className="contat__option">
+          <article className="contact__option">
           <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>hello@neuch.com</h5>
             <a href="https//:m.me/baptiste.bessard.5/" target="_blank">Envoyer un message</a>
           </article>
-          <article className="contat__option">
+          <article className="contact__option">
           <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+33632001723</h5>

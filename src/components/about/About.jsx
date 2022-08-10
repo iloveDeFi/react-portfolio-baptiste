@@ -16,7 +16,6 @@ function About() {
           <div className="about__me-image">
             <img src={ME} alt="About Image" />
           </div>
-
         </div>
 
         <div className="about__content">
@@ -24,7 +23,7 @@ function About() {
               <article className="about__card">
                 <FaAward className="about__icon"/>
                 <h5>Experience</h5>
-                <small>3+ Years Working</small>
+                <small>1+ Years Working</small>
               </article>
 
       

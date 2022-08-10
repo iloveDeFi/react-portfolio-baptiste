@@ -4,10 +4,10 @@ import {FaFacebook} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>EGATOR</a>
+      <a href="#" className='footer__logo'>Baptiste Bessard</a>
 
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
@@ -16,7 +16,6 @@ function Footer() {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#">Home</a></li>
     </ul>
 
     <div className="footer__socials">
