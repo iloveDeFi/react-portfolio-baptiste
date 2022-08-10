@@ -8,7 +8,7 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background-color: linear-gradient(
+  background: linear-gradient(
     45deg,
     transparent,
     var(--color-primary),
@@ -18,13 +18,13 @@
   place-items: center;
 }
 
-.about__me.image {
+.about__me-image {
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
 }
 
-.about_me-image:hover {
+.about__me-image:hover {
   transform: rotate(0);
 }
 
